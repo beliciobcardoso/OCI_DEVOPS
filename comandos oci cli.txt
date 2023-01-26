@@ -1,0 +1,25 @@
+
+
+Após a instalação, é necessário fazer a configuração da ferramenta através do comando abaixo:
+~/bin/oci setup config
+
+Comando para listar os usuários:
+~/bin/oci iam user list
+
+Comando para criar a VCN:
+~/bin/oci network vcn create --from-json file://VCN.json --compartment-id 
+
+
+~/bin/oci iam availability-domain list
+
+
+~/bin/oci iam compartment list
+
+
+~/bin/oci iam region list
+
+    id=9
+    {
+      "key": "GRU",
+      "name": "sa-saopaulo-1"
+    },

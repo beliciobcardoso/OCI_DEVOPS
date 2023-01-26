@@ -1,0 +1,5 @@
+{
+    "cidrBlock": "172.16.0.0",
+    "displayName": "VNC_DEV",
+    "dnsLabel":"VCN_DEV"
+}

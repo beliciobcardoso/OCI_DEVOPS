@@ -1,0 +1,14 @@
+Observação: Este trecho do arquivo de configuração inclui a informação de autenticação básica que você precisará para usar o SDK, a CLI ou outra ferramenta do desenvolvedor do OCI. Cole o conteúdo da caixa de texto no arquivo ~/.oci/config e atualize o parâmetro key_file com o caminho do arquivo para a chave privada. Se você já tiver um perfil Padrão em seu perfil de configuração, execute algumas etapas adicionais. Saiba mais
+
+Selecionar Impressão Digital da Chave de API
+d5:8f:04:1b:28:0b:ff:26:8f:75:02:db:9e:84:ae:90
+
+Visualização do Arquivo de Configuração Somente para Leitura
+[DEFAULT]
+user=ocid1.user.oc1..aaaaaaaavhtsy7rawcp7k6qv4ldwrli6c24bxcr7afxjngfcmemwpmij7x5q
+fingerprint=d5:8f:04:1b:28:0b:ff:26:8f:75:02:db:9e:84:ae:90
+tenancy=ocid1.tenancy.oc1..aaaaaaaazhnvouubrg6d3633e64w4h6gx4bisjz7ltofkbtpzpvznpiybj5a
+region=sa-saopaulo-1
+key_file=<path to your private keyfile> # TODO
+
+Cole o conteúdo da caixa de texto no arquivo ~/.oci/config.
