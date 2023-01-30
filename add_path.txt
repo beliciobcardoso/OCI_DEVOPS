@@ -1,0 +1,6 @@
+
+
+mv ./bin ./.local/bin # move o app para .local/bin depois de instalar e se a pasta .local/bin não existir criar la.
+PATH=$PATH:~/user/bin # add na variavel de ambiente so se a pasta não existir
+sudo chmod x+ .local/bin/oci # add permisão de exercutar para seu user
+
